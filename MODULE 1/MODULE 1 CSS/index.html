@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Local Community Event Portal</title>
+
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Inline style to make one heading red -->
+  <style>
+    h2.inline-red {
+      color: red;
+    }
+  </style>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="mainHeader">
+    <h1 style="color: red;">Welcome to Our Community Portal</h1>
+    <p>Stay updated with local events, news, and activities!</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <section>
+      <h2 class="inline-red">Upcoming Events</h2>
+      <p class="description">
+        Explore local community events happening around you. Participate, volunteer, or just enjoy!
+      </p>
+    </section>
+
+    <section>
+      <h2>Community Bulletin</h2>
+      <div class="news-article">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget sapien nec dui commodo lacinia. Nulla facilisi. Duis tincidunt felis nec gravida vehicula.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Event Admin Table</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tree Plantation</td>
+            <td>June 15, 2025</td>
+            <td>Central Park</td>
+          </tr>
+          <tr>
+            <td>Charity Run</td>
+            <td>June 22, 2025</td>
+            <td>City Square</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <div class="cta">
+      <button class="cta-button join-btn" onclick="alert('Thank you for joining us!')">Join Us</button>
+      <button class="cta-button register-btn" onclick="alert('Redirecting to registration...')">Register</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Local Community Event Portal. All rights reserved.</p>
+  </footer>
+</body>
+</html>
